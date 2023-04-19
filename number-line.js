@@ -11,15 +11,15 @@ let num2 = 0;
 let sum = num1 + num2;
 
   if (sum < -1000) {
-    console.log("is less than -1000");
+    console.log(sum + " is less than -1000");
   } else if (sum < 0) {
-    console.log("is a negative number");
+    console.log(sum + " is a negative number");
   } else if (sum === 0) {
-    console.log("is equal to 0");
+    console.log(sum + " is equal to 0");
   } else if (sum > 0) {
-    console.log("is larger than 0");
+    console.log(sum + " is larger than 0");
   } else if (sum > 100) {
-    console.log("is greater than 100");
+    console.log(sum + " is greater than 100");
   } else {
-    console.log("is not a number");
+    console.log(sum + " is not a number");
   }
