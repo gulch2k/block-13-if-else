@@ -6,6 +6,8 @@
     // "The number 0 is falsy(the only falsy number);"
     // "The empty string is falsy(the only falsy string);"
 
+let value = false;
+
 if (value) {
     console.log("True");
 } else if (value === false) {

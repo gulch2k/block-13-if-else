@@ -2,12 +2,12 @@
 // if both numbers are greater than 5 or equal to, print "true"
 // else print "false"
 
-let num1= 5;
+let num1= 1000;
 
-let num2= 6;
+let num2= -1000;
 
-if (num1 > 5 || num2 >= 5){
+if (Number(num1) >= 5 && Number(num2) >= 5){
     console.log("true");
-}
-else 
+} else {
     console.log("false");
+}
